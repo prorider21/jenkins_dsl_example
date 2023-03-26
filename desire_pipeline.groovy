@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('cloning repo ... ') {
             steps {
-                git 'https://github.com/alicommit-malp/jenkins_dsl_example'
+                git 'https://github.com/prorider21/jenkins_dsl_example'
             }
         }
         
